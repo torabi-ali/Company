@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'IRANSansLight';
+    src: url('../fonts/IRANSansLight.eot');
+    src: url('../fonts/IRANSansLight.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansLight.woff') format('woff'), url('../fonts/IRANSansLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSansMedium';
+    src: url('../fonts/IRANSansMedium.eot');
+    src: url('../fonts/IRANSansMedium.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansMedium.woff') format('woff'), url('../fonts/IRANSansMedium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Web Yekan';
+    src: url('../fonts/web_Yekan.eot');
+    src: url('../fonts/web_Yekan.eot?#iefix') format('embedded-opentype'), url('../fonts/web_Yekan.woff') format('woff'), url('../fonts/web_Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'IRANSansLight', 'Web Yekan', Tahoma, sans-serif !important;
+    font-size: 15px;
+    color: #864200;
+}
+
+h4 {
+    font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'IRANSansMedium', 'Web Yekan', Tahoma, sans-serif !important;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.modal-pursuance {
+    top: 100px;
+}
+
+.jumbotron {
+    background: url("../img/Index.jpg") no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #c7a693;
+    padding: 150px;
+    font-family: 'Web Yekan', 'IRANSansMedium', Tahoma, sans-serif !important;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: #c7a693;
+}
+
+.logo-small {
+    color: #c7a693;
+    font-size: 35px;
+}
+
+.logo {
+    color: #5e0231;
+    font-size: 200px;
+}
+
+.thumbnail {
+    background-color: #dbc3d0;
+    color: #864224;
+    padding: 0 0 10px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+    .thumbnail:hover {
+        box-shadow: 5px 5px 25px rgba(0, 0, 0, .25);
+        z-index: 999;
+        color: #5e0231;
+        font-style: normal;
+        text-decoration: none;
+    }
+
+    .thumbnail img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+.item h4 {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #5e0231;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    border-radius: 0;
+    font-family: 'Web Yekan', 'IRANSansMedium', Tahoma, sans-serif !important;
+}
+
+    .navbar li a, .navbar .navbar-brand {
+        color: #dbc3d0 !important;
+    }
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #864224 !important;
+    background-color: #dbc3d0 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #dbc3d0 !important;
+}
+
+.social a {
+    color: #5e0231;
+}
+
+    .social a:hover {
+        text-decoration: none;
+    }
+
+.social .fa {
+    font-size: 50px;
+}
+
+.social-instagram:hover {
+    color: #f77737;
+}
+
+.social-telegram:hover {
+    color: #0088cc;
+}
+
+footer .fa {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #5e0231;
+}
+
+.vertical {
+    border-right: 2px solid #5e0231;
+    padding-right: 10px;
+}
+
+.slideanim {
+    visibility: hidden;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}
